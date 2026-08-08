@@ -528,7 +528,7 @@ img {
 
 .process-section {
   background: linear-gradient(105deg, #f8fafc 0%, #ffffff 100%);
-  padding: 5rem 2rem;
+  padding: 160px 2rem 5rem;
 }
 
 .process-section h2 {
@@ -926,9 +926,8 @@ img {
   }
   
   .process-section {
-    padding: 3rem 1.2rem;
+    padding: 130px 1.2rem 3rem;
   }
-
   .timeline-item h3 {
     font-size: 1.2rem;
   }
@@ -1095,39 +1094,4 @@ img {
   }
 }
 
-/* ==================================== */
-/* VARIANTE BOUTONS COLORÉS            */
-/* ==================================== */
 
-/*
-.social-link {
-  color: white;
-  padding: 0.5rem 1.5rem;
-  border-radius: 50px;
-  border: none;
-}
-
-.social-facebook {
-  background: #1877F2;
-}
-
-.social-facebook:hover {
-  background: #0d65d9;
-  transform: translateY(-3px);
-  box-shadow: 0 6px 25px rgba(24, 119, 242, 0.35);
-}
-
-.social-tiktok {
-  background: #000000;
-}
-
-.social-tiktok:hover {
-  background: #1a1a1a;
-  transform: translateY(-3px);
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
-}
-
-.social-link .social-label {
-  color: white;
-}
-*/
