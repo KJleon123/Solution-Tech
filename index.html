@@ -3,145 +3,161 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Services informatiques et digitaux professionnels : support, sites web et accompagnement numérique.">
-  <title>Accueil | Solution Tech</title>
+  <meta name="description" content="Solution Tech : communication digitale, publicité Facebook, création de sites web, supports de communication et formations en bureautique et digitalisation.">
+  <meta property="og:title" content="Solution Tech | Services informatiques, digitaux et formations">
+  <meta property="og:description" content="Solution Tech : communication digitale, publicité Facebook, création de sites web, supports de communication et formations en bureautique et digitalisation.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#2563eb">
+  <title>Solution Tech | Services informatiques, digitaux et formations</title>
   <link rel="icon" href="images/favicon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="Solution Tech">
-    <img src="images/logo.png" alt="Solution Tech"></a>
-
+    <a class="brand" href="index.html" aria-label="Solution Tech - Accueil">
+      <img src="images/logo.png" alt="Solution Tech">
+    </a>
     <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
-      <span></span>
-      <span></span>
-      <span></span>
+      <span></span><span></span><span></span>
     </button>
     <nav class="main-nav" aria-label="Navigation principale">
-      <a class="active" href="index.html">Accueil</a>
+      <a class="active" aria-current="page" href="index.html">Accueil</a>
       <a href="services.html">Services</a>
+      <a href="actualites.html">Actualités<span class="nav-new">Nouveau</span></a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <main>
-    <!-- ===== SECTION HERO ===== -->
+    <!-- ===== À LA UNE (rempli automatiquement depuis script.js) ===== -->
+    <section class="featured" id="a-la-une" aria-label="À la une"></section>
+
+    <!-- ===== HERO ===== -->
     <section class="hero">
       <canvas class="hero-canvas" aria-hidden="true"></canvas>
       <div class="hero-content reveal">
-        <h1>Des solutions numériques fiables pour faire connaitre et avancer votre activité.</h1>
-        <p class="hero-text"> Nous accompagnons entreprises et particuliers avec des services modernes de communication, publicité et informatique.</p>
+        <p class="eyebrow">Solution Tech · Informatique &amp; Digital</p>
+        <h1 class="gradient-title">Des solutions numériques fiables pour faire connaître et développer votre activité.</h1>
+        <p class="hero-text">Nous accompagnons entreprises et particuliers avec des services modernes de communication, de publicité en ligne, d'informatique et de formation.</p>
         <div class="hero-actions">
-          <a class="btn primary" href="services.html">Nos services</a>
+          <a class="btn primary" href="services.html">Découvrir nos services</a>
           <a class="btn ghost" href="contact.html">Demander un devis</a>
         </div>
       </div>
     </section>
 
-    <!-- ===== SECTION OBJECTIF ===== -->
-    <section class="section split">
-      <div class="reveal">
-        <h2><u>Notre objectif:</u> digitalisé et numerisé votre activite afin de les rendres plus rapides, facile à maintenir au quotidien.</h2>
+    <!-- ===== OBJECTIF ===== -->
+    <section class="mission">
+      <h2 class="reveal"><span>Notre objectif :</span> digitaliser votre activité pour la rendre plus rapide, plus visible et plus simple à gérer au quotidien.</h2>
+    </section>
+
+    <!-- ===== DOMAINES ===== -->
+    <section class="domains">
+      <div class="domain-grid">
+        <a class="domain-card reveal" href="services.html#digital">
+          <div class="domain-icon">📣</div>
+          <h3>Services digitaux</h3>
+          <p>Pages Facebook pro, campagnes publicitaires et community management.</p>
+        </a>
+        <a class="domain-card reveal" href="services.html#digital">
+          <div class="domain-icon">🎨</div>
+          <h3>Supports de communication</h3>
+          <p>Affiches, logos, flyers, cartes de visite, brochures, company profiles.</p>
+        </a>
+        <a class="domain-card reveal" href="services.html#informatique">
+          <div class="domain-icon">💻</div>
+          <h3>Services informatiques</h3>
+          <p>Sites web, logiciels, applications, installation de systèmes et d'Office.</p>
+        </a>
+        <a class="domain-card reveal" href="services.html#formations">
+          <div class="domain-icon">🎓</div>
+          <h3>Formations</h3>
+          <p>Bureautique (Word, Excel, PowerPoint) et publicité Facebook Ads.</p>
+        </a>
       </div>
     </section>
 
-    <!-- ===== SECTION POURQUOI CHOISIR SOLUTION TECH ? ===== -->
+    <!-- ===== POURQUOI NOUS CHOISIR ===== -->
     <section class="why-section">
-      <div class="why-header reveal">
-        <p class="why-eyebrow">Pourquoi nous choisir?</p>
+      <div class="section-head reveal">
+        <p class="eyebrow">Pourquoi nous choisir ?</p>
         <h2>Des compétences multiples au service de votre projet</h2>
       </div>
-
       <div class="why-grid">
         <article class="why-card reveal">
           <div class="why-icon">💻</div>
           <h3>Expertise informatique et digitale</h3>
-          <p>Solution Tech intervient dans plusieurs domaines : développement web, communication digitale, publicité, design graphique, formation informatique (bureautique) et solutions sur mesure.</p>
+          <p>Développement web, communication digitale, publicité, design graphique, formation bureautique et solutions sur mesure.</p>
         </article>
-
         <article class="why-card reveal">
           <div class="why-icon">🎯</div>
           <h3>Solutions adaptées à vos besoins</h3>
-          <p>Chaque projet est étudié en profondeur avant sa réalisation afin de proposer une solution parfaitement adaptée à vos objectifs et à votre budget.</p>
+          <p>Chaque projet est étudié en amont afin de proposer une solution adaptée à vos objectifs et à votre budget.</p>
         </article>
-
         <article class="why-card reveal">
           <div class="why-icon">🤝</div>
           <h3>Accompagnement personnalisé</h3>
-          <p>Nous vous accompagnons depuis la prise de contact jusqu'à la livraison, et assurons un suivi après la mise en service pour garantir votre satisfaction.</p>
+          <p>Nous vous accompagnons de la prise de contact jusqu'à la livraison, avec un suivi après la mise en service.</p>
         </article>
-
         <article class="why-card reveal">
           <div class="why-icon">⭐</div>
           <h3>Qualité et professionnalisme</h3>
-          <p>Notre approche est sérieuse, moderne et orientée vers la satisfaction du client. Nous mettons un point d'honneur à livrer un travail soigné et performant.</p>
+          <p>Une approche sérieuse et moderne, orientée vers la satisfaction du client et un travail soigné.</p>
         </article>
-
         <article class="why-card reveal">
           <div class="why-icon">🔄</div>
-          <h3>Un interlocuteur pour plusieurs besoins</h3>
-          <p>Retrouvez au même endroit tous vos services numériques : développement, communication, publicité, formation et solutions informatiques.</p>
+          <h3>Un seul interlocuteur</h3>
+          <p>Développement, communication, publicité, formation et informatique : tout au même endroit.</p>
+        </article>
+        <article class="why-card reveal">
+          <div class="why-icon">⚡</div>
+          <h3>Réactivité</h3>
+          <p>Une réponse rapide à vos demandes par WhatsApp ou par e-mail, du lundi au samedi.</p>
         </article>
       </div>
     </section>
 
-    <!-- ===== SECTION TÉMOIGNAGES ===== -->
+    <!-- ===== TÉMOIGNAGES ===== -->
     <section class="testimonials-section">
-      <div class="testimonials-header reveal">
-        <p class="testimonials-eyebrow">Ils nous font confiance</p>
+      <div class="section-head reveal">
+        <p class="eyebrow">Ils nous font confiance</p>
         <h2>Ce que nos clients disent de nous</h2>
       </div>
-
       <div class="testimonials-grid">
-        <!-- Témoignage 1 - Formation bureautique -->
         <article class="testimonial-card reveal">
-          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-          <blockquote class="testimonial-quote">
-            "J'avais des difficultés avec Word, Excel et PowerPoint. Grâce à la formation de Solution Tech, je suis devenu beaucoup plus autonome dans mon travail. Les explications sont claires, les exercices pratiques et le formateur est à l'écoute même après fin du contrat. Je recommande vivement !"
-          </blockquote>
+          <div class="testimonial-stars" aria-label="5 étoiles sur 5">★★★★★</div>
+          <blockquote class="testimonial-quote">« J'avais des difficultés avec Word, Excel et PowerPoint. Grâce à la formation de Solution Tech, je suis devenue beaucoup plus autonome dans mon travail. Les explications sont claires, les exercices pratiques, et le formateur reste disponible même après la formation. Je recommande vivement ! »</blockquote>
           <div class="testimonial-author">
-            <div class="testimonial-info">
-              <strong>Mme Koffi</strong>
-            </div>
+            <div class="testimonial-avatar">K</div>
+            <div class="testimonial-info"><strong>Mme Koffi</strong><span>Formation bureautique</span></div>
           </div>
         </article>
-
-        <!-- Témoignage 2 - Création site web pour pressing -->
         <article class="testimonial-card reveal">
-          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-          <blockquote class="testimonial-quote">
-            "Solution Tech a réalisé le site web de mon pressing. Le résultat est moderne, professionnel et parfaitement adapté à mon activité. Mes clients peuvent désormais découvrir mes services en ligne, ce qui a considérablement amélioré mon image de marque."
-          </blockquote>
+          <div class="testimonial-stars" aria-label="5 étoiles sur 5">★★★★★</div>
+          <blockquote class="testimonial-quote">« Solution Tech a réalisé le site web de mon pressing. Le résultat est moderne, professionnel et parfaitement adapté à mon activité. Mes clients découvrent désormais mes services en ligne, ce qui a nettement amélioré mon image de marque. »</blockquote>
           <div class="testimonial-author">
-            <div class="testimonial-info">
-              <strong>Mr Jacques N'da</strong>
-            </div>
+            <div class="testimonial-avatar">J</div>
+            <div class="testimonial-info"><strong>M. Jacques N'da</strong><span>Création de site web</span></div>
           </div>
         </article>
-
-        <!-- Témoignage 3 - Campagne publicitaire -->
         <article class="testimonial-card reveal">
-          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
-          <blockquote class="testimonial-quote">
-            "J'ai fait appel à Solution Tech pour une campagne publicitaire digitale. Le ciblage était précis, la visibilité a explosé et nous avons reçu de nombreuses demandes de nouveaux prospects. Un accompagnement professionnel du début à la fin !"
-          </blockquote>
+          <div class="testimonial-stars" aria-label="5 étoiles sur 5">★★★★★</div>
+          <blockquote class="testimonial-quote">« J'ai fait appel à Solution Tech pour une campagne publicitaire digitale. Le ciblage était précis, notre visibilité a fortement augmenté et nous avons reçu de nombreuses demandes de prospects. Un accompagnement professionnel du début à la fin ! »</blockquote>
           <div class="testimonial-author">
-            <div class="testimonial-info">
-              <strong>Mme Nicole</strong>
-            </div>
+            <div class="testimonial-avatar">N</div>
+            <div class="testimonial-info"><strong>Mme Nicole</strong><span>Campagne publicitaire</span></div>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- ===== CTA FINALE ===== -->
-    <section class="cta-section-final reveal">
+    <!-- ===== APPEL À L'ACTION ===== -->
+    <section class="cta-band reveal">
       <div>
         <p class="eyebrow">Prêt à démarrer ?</p>
         <h2>Vous avez un projet ? Parlons-en.</h2>
       </div>
-      <div class="cta-final-actions">
+      <div class="cta-actions">
         <a class="btn primary" href="contact.html">Demander un devis</a>
         <a class="btn ghost" href="services.html">Voir nos services</a>
       </div>
@@ -149,27 +165,45 @@
   </main>
 
   <footer class="site-footer">
-    <p>Lien utiles</p>
-
-    <div class="footer-social">
-      <!-- Facebook -->
-      <a href="https://www.facebook.com/profile.php?id=61590086701487" 
-         target="_blank" 
-         rel="noopener noreferrer" 
-         aria-label="Facebook" 
-         class="social-link social-facebook">
-        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.099 4.388 23.094 10.125 24V15.563H7.078V12.073H10.125V9.413C10.125 6.387 11.916 4.716 14.657 4.716C15.97 4.716 17.343 4.951 17.343 4.951V7.922H15.83C14.34 7.922 13.875 8.853 13.875 9.808V12.073H17.203L16.671 15.563H13.875V24C19.612 23.094 24 18.099 24 12.073Z"/>
-        </svg>
-      </a>
-
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <strong>Solution Tech</strong>
+        <p>Services informatiques et digitaux : communication, publicité en ligne, création de sites web et formations.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/profile.php?id=61590086701487" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-link social-facebook">
+            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.099 4.388 23.094 10.125 24V15.563H7.078V12.073H10.125V9.413C10.125 6.387 11.916 4.716 14.657 4.716C15.97 4.716 17.343 4.951 17.343 4.951V7.922H15.83C14.34 7.922 13.875 8.853 13.875 9.808V12.073H17.203L16.671 15.563H13.875V24C19.612 23.094 24 18.099 24 12.073Z"/></svg>
+          </a>
+          <a href="https://wa.me/2250173312660?text=Bonjour%20Solution%20Tech%2C%20je%20souhaiterais%20avoir%20plus%20d'informations%20sur%20vos%20services." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-link social-whatsapp">
+            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="actualites.html">Actualités</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="mailto:solutiontech407@gmail.com">Nous écrire par e-mail</a></li>
+          <li><a href="https://wa.me/2250173312660?text=Bonjour%20Solution%20Tech%2C%20je%20souhaiterais%20avoir%20plus%20d'informations%20sur%20vos%20services." target="_blank" rel="noopener noreferrer">Nous écrire sur WhatsApp</a></li>
+          <li><a href="contact.html">Du lundi au samedi</a></li>
+        </ul>
+      </div>
     </div>
-
-    <div class="footer-content">
-      <p>&copy; 2026 Solution Tech | Tous droits réservés.</p>
-    </div>
+    <div class="footer-bottom">&copy; <span class="year">2026</span> Solution Tech · Tous droits réservés.</div>
   </footer>
 
+  <a class="whatsapp-float" href="https://wa.me/2250173312660?text=Bonjour%20Solution%20Tech%2C%20je%20souhaiterais%20avoir%20plus%20d'informations%20sur%20vos%20services." target="_blank" rel="noopener noreferrer" aria-label="Discuter sur WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="actualites-config.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
