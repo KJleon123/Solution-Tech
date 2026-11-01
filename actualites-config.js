@@ -30,7 +30,7 @@ const ACTUALITES = [
   // ---------- ACTUALITÉ 1 ----------
   {
     categorie: "Formation",
-    date: "2026-10-27",
+    date: "2026-11-01",
     titre: "Formation Facebook Ads : trouvez plus de clients et vendez plus",
     resume: "Apprenez à lancer vous-même vos publicités Facebook, pas à pas sans agence, même si vous débutez. Plus de visibilité, plus de clients, plus de ventes.",
     points: [
