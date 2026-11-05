@@ -65,7 +65,7 @@ const ACTUALITES = [
     image: "images/Formation_ia.png",
     lien: "https://crhpiawf.mychariow.shop/pack-prompts-ia",
     bouton: "Acheter maintenant",
-    aLaUne: true
+    aLaUne:false
   },
 
 ];
