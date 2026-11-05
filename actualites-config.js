@@ -40,7 +40,7 @@ const ACTUALITES = [
       "8 modules en PDF + version Word, accès immédiat après paiement"
     ],
     prix: "",
-    image: "images/Formation_ia.png",
+    image: "images/formation_ia.png",
     lien: "https://crhpiawf.mychariow.shop/pack-prompts-ia",
     bouton: "Acheter maintenant",
     aLaUne:true
