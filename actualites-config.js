@@ -47,25 +47,25 @@ const ACTUALITES = [
     aLaUne: true
   },
 
-  /* ---------- MODÈLE POUR UNE NOUVELLE ACTUALITÉ ----------
-     Copiez ce bloc, collez-le au-dessus de cette ligne,
-     puis retirez les symboles de commentaire placés avant et après.
-
+    // ---------- ACTUALITÉ 2 ----------
   {
     categorie: "Formation",
-    date: "2026-11-15",
-    titre: "Titre de l'actualité",
-    resume: "Courte description.",
+    date: "2026-11-05",
+    titre: "Pack Prompts IA : 40 prompts prêts à copier pour tous les secteurs d'activité",
+    resume: "Arrêtez les visuels IA génériques que tout le monde utilise. Avec les bons prompts, créez des affiches, des pubs et des textes de vente réalistes et premium, adaptés à votre activité et à vos clients, même si vous débutez. Un bon prompt = un bon résultat.",
     points: [
-      "Point 1",
-      "Point 2"
+      "40 prompts prêts à copier, pour tous les secteurs d'activité",
+      "La méthode RTCSF pour créer vos propres prompts",
+      "Des visuels pro : affiches, photos produits, logos, miniatures YouTube",
+      "Des textes qui vendent : pubs Facebook, statuts WhatsApp, scripts TikTok",
+      "16 exemples réels avant / après générés avec l'IA",
+      "8 modules en PDF + version Word, accès immédiat après paiement"
     ],
     prix: "",
-    image: "images/mon-image.png",
-    lien: "https://votre-lien.com",
+    image: "images/formation_ia.png",
+    lien: "https://crhpiawf.mychariow.shop/pack-prompts-ia",
     bouton: "Acheter maintenant",
-    aLaUne: false
+    aLaUne: true
   },
-  */
 
 ];
